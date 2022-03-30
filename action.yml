@@ -1,5 +1,5 @@
 # kaniko.yml
-name: "Kaniko builder"
+name: "Minute Cloud Kaniko builder"
 description: "Build and push docker images using Kaniko"
 branding:
   icon: anchor
