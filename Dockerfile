@@ -1,4 +1,4 @@
-FROM alpine as certs
+FROM registry.ops.minutesvc.com/library/alpine as certs
 
 RUN apk --update add ca-certificates
 
