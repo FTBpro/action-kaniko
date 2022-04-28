@@ -31,6 +31,7 @@ ensure "${PASSWORD}" "password"
 ensure "${IMAGE}" "image"
 ensure "${TAG}" "tag"
 ensure "${CONTEXT_PATH}" "path"
+ensure "${NAMESPACE}" "name_space"
 
 if [ "$REGISTRY" == "ghcr.io" ]; then
     IMAGE_NAMESPACE="$(echo $GITHUB_REPOSITORY | tr '[:upper:]' '[:lower:]')"
