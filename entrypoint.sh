@@ -12,6 +12,7 @@ export PASSWORD=${INPUT_PASSWORD:-$GITHUB_TOKEN}
 export REPOSITORY=$IMAGE
 export IMAGE=$IMAGE:$TAG
 export CONTEXT_PATH=${INPUT_PATH}
+export NAMESPACE=${INPUT_NAME_SPACE}
 
 if [[ "$INPUT_TAG_WITH_LATEST" == "true" ]]; then
     export IMAGE_LATEST="$IMAGE:latest"
